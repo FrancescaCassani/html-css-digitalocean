@@ -98,6 +98,10 @@ body {
 }
 
 /* DEPLOY */
+.deploy {
+  position: relative;
+}
+
 .deploy .text-deploy {
   margin: 50px 0;
 }
@@ -114,4 +118,21 @@ body {
 .deploy .list-group-item {
   border: none;
   border-left: 1px solid #5b6987;
+  border-radius: 0;
 }
+
+.deploy .list {
+  font-size: 16px;
+}
+
+.deploy .list {
+  transform: translateY(40%);
+  text-align: left;
+}
+
+.deploy .cluster1 {
+  transform: translateY(-130%);
+  }
+  .deploy .cluster2 {
+    transform: translateY(-100%);
+    }
