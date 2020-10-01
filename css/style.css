@@ -1,0 +1,14 @@
+/* Impostazioni generali */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* UTILITIES */
+
+
+
+
+/* HEADER */
+.navbar-brand img {
+  max-width: 200px;
+}
