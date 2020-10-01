@@ -72,7 +72,43 @@ body {
   color: white;
 }
 
+
+/* LOGHI */
+.loghi {
+  background: #f3f5f9;
+  margin-top: -30px;
+}
+
+.loghi h4 {
+  text-transform: uppercase;
+  color: #5b6987
+}
+
 .loghi img {
-  margin-top: 80px;
   transform: translatey(-50%);
+  margin-top: 80px;
+  margin-bottom: -20px;
+}
+
+.loghi .text-loghi {
+  padding-bottom: 25px;
+}
+
+/* DEPLOY */
+.deploy .text-deploy {
+  margin-top: 50px;
+}
+
+.deploy h1 {
+  color: #031b4e;
+}
+
+.deploy h3,
+.deploy .list {
+  color: #5b6987;
+}
+
+.deploy .list-group-item {
+  border: none;
+  border-left: 1px solid #5b6987;
 }
