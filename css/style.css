@@ -106,7 +106,8 @@ body {
   margin: 50px 0;
 }
 
-.deploy h1 {
+.deploy .text-deploy h1,
+.deploy .cluster h3 {
   color: #031b4e;
 }
 
@@ -130,9 +131,65 @@ body {
   text-align: left;
 }
 
-.deploy .cluster1 {
-  transform: translateY(-130%);
+.deploy .cluster {
+  transform: translateY(-60%);
   }
-  .deploy .cluster2 {
-    transform: translateY(-100%);
-    }
+
+  /* DEVELOPERS */
+.developers {
+  background: #f3f5f9;
+}
+
+.developers .text-developers {
+  margin: 50px 0;
+}
+
+.developers .text-developers h1,
+.developers .text-developers h3 {
+  line-height: 50px;
+  color: #031b4e;
+  }
+
+.developers .text-developers p {
+  color: #5b6987;
+}
+
+.developers .text-developers img {
+  max-width: 650px;
+  margin: 50px 0 20px 0;
+  transform: translateX(40%);
+}
+
+.developers-item {
+  position: relative;
+}
+
+.developers-layover {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.developers-item .fa-chevron-left {
+  position: absolute;
+  left: 18%;
+  transform: translateY(200px);
+  color: #5b6987;
+}
+
+.developers-item .fa-chevron-right {
+  position: absolute;
+  right: 18%;
+  transform: translateY(200px);
+  color: #031b4e;
+}
+
+.developers-layover i {
+  font-size: 50px;
+}
+
+.developers-item .fa-ellipsis-h {
+  font-size: 25px;
+}
