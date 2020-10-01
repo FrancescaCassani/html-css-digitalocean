@@ -13,63 +13,107 @@
 
     <!-- HEADER -->
     <header class="main-header">
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default white-color">
         <div class="container">
+          <div class="row ">
+            <div class="col-lg-2">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
 
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="#">
-                <img class="img-responsive" src="./img/do-logo.png" alt="">
-              </a>
+                <a class="navbar-brand" href="#">
+                  <img class="img-responsive" src="./img/do-logo.png" alt="">
+                </a>
+              </div>
             </div>
 
-            <div class="collapse navbar-collapse" id="main-menu">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="#">
-                    Products
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Customers
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Community
-                  </a>
+            <div class="hidden-xs col-lg-6 ">
+              <div id="main-menu">
+                <ul class="nav navbar-nav move">
                   <li>
-                    <a href="#">
-                      Pricing
+                    <a href="#">Products
+                      <i class="fas fa-chevron-down"></i>
                     </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Docs
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Support
-                  </a>
-                </li>
-                <li>
-                  <a class="btn btn-default" href="#">Login</a>
-              </ul>
+                  </li>
+                  <li>
+                    <a href="#">Customers</a>
+                  </li>
+                  <li>
+                    <a href="#">Community
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing</a>
+                  </li>
+                </ul>
+              </div>
             </div>
 
-
-
+            <div class="hidden-xs col-lg-4">
+              <div id="main-menu">
+                <ul class="nav navbar-nav color">
+                  <li>
+                    <a href="#">Docs</a>
+                  </li>
+                  <li>
+                    <a href="#">Support
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">Login</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="#">Sign Up</a>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
+
+      <!-- JUMBOTRON -->
+      <section class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 offset-lg-1">
+              <div class="text-jumbotron left">
+                <h1>The simplest cloud platform for developers &amp teams</h1>
+                <p>Deploy, manage, and scale colud applications faster and more efficiently onm DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or ten thousand.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="box-jumbotron text-center white-color">
+                <h2>Deply your app in seconds.
+                <a href="#">Get started now.</a></h2>
+
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="pw" class="form-control" id="pz" placeholder="Password">
+                  </div>
+
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Create your account</button>
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Sign up with google</button>
+                  <h6>By signing up you agree to the <a href="#">Terms of service</a><h6>
+                </form>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
 
 
 

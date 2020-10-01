@@ -4,11 +4,65 @@ body {
 }
 
 /* UTILITIES */
+.white-color {
+  background: #ffffff;
+}
 
+.w-50 {
+  width: 50%;
+}
+/* BOTTONI */
+.btn {
+  border: 1px solid #006aff;
+  padding: 3px 5px;
+  background: white;
+}
 
-
+.btn-primary {
+  background: #006aff;
+}
 
 /* HEADER */
-.navbar-brand img {
-  max-width: 200px;
+.main-header {
+  position: relative;
+}
+
+.main-header img {
+  position: absolute;
+  max-width: 150px;
+  bottom: 13px;
+}
+
+.main-header .nav.move li:first-child {
+  padding-left: 30px;
+}
+
+.navbar-nav .btn {
+  padding: 8px 8px;
+  margin-top: 5px;
+}
+
+.nav li a {
+  color: #031b4e;
+}
+
+.nav li a i {
+  position: absolute;
+  top: 20px;
+  margin-left: 1px;
+  transform: scale(0.9);
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  position: relative;
+  margin-top: -20px;
+  height: 550px;
+  background-image: url("../img/bg-banner-home.jpg");
+  background-size: cover;
+}
+
+.jumbotron .text-jumbotron h1,
+.jumbotron .text-jumbotron p {
+  color: white;
 }
