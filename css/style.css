@@ -62,7 +62,17 @@ body {
   background-size: cover;
 }
 
+.box-jumbotron {
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
 .jumbotron .text-jumbotron h1,
 .jumbotron .text-jumbotron p {
   color: white;
+}
+
+.loghi img {
+  margin-top: 80px;
+  transform: translatey(-50%);
 }
