@@ -11,6 +11,9 @@ body {
 .w-50 {
   width: 50%;
 }
+
+
+
 /* BOTTONI */
 .btn {
   border: 1px solid #006aff;
@@ -96,7 +99,7 @@ body {
 
 /* DEPLOY */
 .deploy .text-deploy {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .deploy h1 {
