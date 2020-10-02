@@ -3,16 +3,22 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* UTILITIES */
+/* UTILITIES COLORI*/
 .white-color {
   color: #ffffff;
 }
-
-.w-50 {
-  width: 50%;
+.color-grey {
+  color: #5a7b94;
 }
-
-
+.color-blue {
+  color: #031b4e;
+}
+.background-white {
+  background: white;
+}
+.background-grey {
+  background: #f3f5f9;
+}
 
 /* BOTTONI */
 .btn {
@@ -24,7 +30,6 @@ body {
 .btn-primary {
   background: #006aff;
 }
-
 
 /* HEADER */
 .main-header {
@@ -44,10 +49,6 @@ body {
 .navbar-nav .btn {
   padding: 8px 8px;
   margin-top: 5px;
-}
-
-.nav li a {
-  color: #031b4e;
 }
 
 .nav li a i {
@@ -75,21 +76,14 @@ body {
   border-radius: 5px;
 }
 
-.jumbotron .text-jumbotron h1,
-.jumbotron .text-jumbotron p {
-  color: white;
-}
-
-
 /* LOGHI */
 .loghi {
-  background: #f3f5f9;
   margin-top: -30px;
 }
 
 .loghi h4 {
+  padding-top: 40px;
   text-transform: uppercase;
-  color: #5b6987
 }
 
 .loghi img {
@@ -109,16 +103,6 @@ body {
 
 .deploy .text-deploy {
   margin: 50px 0;
-}
-
-.deploy .text-deploy h1,
-.deploy .cluster h3 {
-  color: #031b4e;
-}
-
-.deploy h3,
-.deploy .list {
-  color: #5b6987;
 }
 
 .deploy .list-group-item {
@@ -141,23 +125,15 @@ body {
   }
 
   /* DEVELOPERS */
-.developers {
-  background: #f3f5f9;
-}
-
 .developers .text-developers {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .developers .text-developers h1,
 .developers .text-developers h3 {
   line-height: 50px;
-  color: #031b4e;
   }
 
-.developers .text-developers p {
-  color: #5b6987;
-}
 
 .developers .text-developers img {
   max-width: 650px;
@@ -181,14 +157,12 @@ body {
   position: absolute;
   left: 17%;
   transform: translateY(200px);
-  color: #5b6987;
 }
 
 .developers-item .fa-chevron-right {
   position: absolute;
   right: 14%;
   transform: translateY(200px);
-  color: #031b4e;
 }
 
 .developers-layover i {
@@ -208,12 +182,6 @@ body {
 .features .text-features {
   margin-bottom: 70px;
 }
-
-.features .text-features h3,
-.features .text-features h1 {
-  color: #031b4e;
-}
-
 
 /* SERVICE */
 .service {
@@ -254,11 +222,6 @@ body {
 }
 
 /* DEVELOPMENT */
-.development {
-  position: relative;
-  background: #f3f5f9;
-}
-
 .development .development-item {
   transform: translateX(40%);
   width: 650px;
@@ -333,7 +296,6 @@ margin: 20px 0  35px 0;
 footer {
   background: #010e28;
   padding-top: 50px;
-  color: white;
 }
 
 footer .box img {
