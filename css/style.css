@@ -83,6 +83,7 @@ body {
 }
 
 .box-jumbotron {
+  position: relative;
   padding: 15px 15px;
   border-radius: 5px;
 }
@@ -340,4 +341,52 @@ footer .icone a {
 
 footer .icone a:first-child {
   padding-left: 0;
+}
+
+
+
+
+
+
+
+/* XS*/
+/* Header */
+@media screen and (max-width:677px) {
+  .jumbotron .box-jumbotron {
+    width: 80%;
+    height: 40%;
+    transform: translateX(15%);
+  }
+  .jumbotron .text-jumbotron h1 {
+    font-size: 25px;
+  }
+  .jumbotron .text-jumbotron p {
+    font-size: 16px;
+  }
+}
+
+/* Loghi */
+@media screen and (max-width:677px) {
+  .loghi img {
+    width: 50%;
+    height: 50%
+  }
+}
+
+/* Deploy */
+@media screen and (max-width:677px) {
+  .deploy .cluster {
+    transform: translateY(10%);
+    margin-bottom: 80px;
+  }
+}
+
+/* Developers */
+@media screen and (max-width:677px) {
+  .developers .text-developers h1 {
+    font-size: 25px;
+  }
+  .developers .text-developers h3 {
+    font-size: 16px;
+  }
 }
