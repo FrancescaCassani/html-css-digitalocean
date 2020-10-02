@@ -25,6 +25,7 @@ body {
   background: #006aff;
 }
 
+
 /* HEADER */
 .main-header {
   position: relative;
@@ -54,6 +55,10 @@ body {
   top: 20px;
   margin-left: 1px;
   transform: scale(0.9);
+}
+
+.btn a {
+  color: #0049ff;
 }
 
 /* JUMBOTRON */
@@ -210,12 +215,6 @@ body {
 }
 
 
-
-
-
-
-
-
 /* SERVICE */
 .service {
   margin-top: 200px;
@@ -258,7 +257,6 @@ body {
 .development {
   position: relative;
   background: #f3f5f9;
-  margin: 50px 0;
 }
 
 .development .development-item {
@@ -268,7 +266,7 @@ body {
 }
 
 .development .text-development h1 {
-  padding-bottom: 40px;
+  padding: 40px 0;
   color: #031b4e;
 }
 
@@ -315,4 +313,54 @@ font-size: 50px;
 .development .fa-ellipsis-h {
 font-size: 25px;
 margin: 20px 0  35px 0;
+}
+
+/* STARTED */
+.started {
+  background-image: linear-gradient(to top, #00249d 0%, #4068e5 100%);
+  padding-bottom: 30px;
+}
+
+.started .text-started h1 {
+  padding: 30px 0;
+}
+
+.btn-started {
+  padding: 15px 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #010e28;
+  padding-top: 50px;
+  color: white;
+}
+
+footer .box img {
+  margin-bottom: 15px;
+}
+
+footer .box h5 {
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+footer .box li {
+  list-style: none;
+  line-height: 30px;
+  text-align: left;
+}
+
+footer .icone {
+  font-size: 25px;
+  padding: 15px 0;
+}
+
+footer .icone a {
+  font-size: 25px;
+  padding: 0 8px;
+}
+
+footer .icone a:first-child {
+  padding-left: 0;
 }
