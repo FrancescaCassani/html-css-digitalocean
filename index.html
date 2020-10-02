@@ -12,11 +12,11 @@
   <body>
 
     <!-- HEADER -->
-    <header class="main-header">
+    <header class="main-header background-white">
       <nav class="navbar navbar-default white-color">
         <div class="container">
           <div class="row ">
-            <div class="col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-2">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
                   <span class="sr-only">Toggle navigation</span>
@@ -31,7 +31,7 @@
               </div>
             </div>
 
-            <div class="hidden-xs col-md-6 ">
+            <div class="hidden-xs hidden-sm col-md-6">
               <div id="main-menu">
                 <ul class="nav navbar-nav move">
                   <li>
@@ -54,7 +54,7 @@
               </div>
             </div>
 
-            <div class="hidden-xs col-md-4">
+            <div class="hidden-xs hidden-sm col-md-4">
               <div id="main-menu">
                 <ul class="nav navbar-nav color">
                   <li>
@@ -83,17 +83,18 @@
       <section class="jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
               <div class="text-jumbotron left white-color">
                 <h1>The simplest cloud platform for developers &amp teams</h1>
                 <p>Deploy, manage, and scale colud applications faster and more efficiently onm DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or ten thousand.</p>
               </div>
             </div>
 
-            <div class="col-md-5 ">
+            <div class="col-xs-12 col-sm-6 col-md-5">
               <div class="box-jumbotron text-center background-white">
-                <h2 class="color-blue">Deply your app in seconds.
-                <a href="#">Get started now.</a></h2>
+                <h2 class="color-blue">Deply your app in seconds.<br>
+                <a class="color-azure" href="#">Get started now.</a>
+                </h2>
 
                 <form>
                   <div class="form-group">
@@ -103,13 +104,16 @@
                     <input type="pw" class="form-control" id="pz" placeholder="Password">
                   </div>
 
-                  <button type="submit" class="btn btn-primary btn-lg btn-block">Create your account</button>
-                  <button type="submit" class="btn btn-primary btn-lg btn-block">Sign up with google</button>
-                  <h6>By signing up you agree to the <a href="#">Terms of service</a><h6>
+                  <button type="submit" class="btn btn-primary btn-lg btn-block btn-account">Create your account</button>
+                  <button type="submit" class="btn btn-lg btn-block btn-google">
+                    <i class="fab fa-google"></i>
+                    Sign up with google</button>
+                    <h6>By signing up you agree to the
+                      <a class="color-azure" href="#">Terms of service</a>
+                    <h6>
                 </form>
               </div>
             </div>
-
 
           </div>
         </div>
@@ -119,31 +123,31 @@
       <section class="loghi background-grey">
         <div class="container">
           <div>
-            <h4 class="color-grey text-center">Innovative business trust digitalocean</h4>
+            <h4 class="col-xs-12 col-sm-12 col-md-12 color-grey text-center">Innovative business trust digitalocean</h4>
           </div>
           <div class="row">
-            <div class="col-md-2">
+            <div class="col-xs-2 col-sm-2 col-md-2">
               <img class="img-responsive" src="./img/docker.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-xs-2 col-sm-2 col-md-2">
               <img class="img-responsive" src="./img/gitlab.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-xs-2 col-sm-2 col-md-2">
               <img class="img-responsive" src="./img/slack.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-xs-2 col-sm-2 col-md-2">
               <img class="img-responsive" src="./img/hashicorp.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-xs-2 col-sm-2 col-md-2">
               <img class="img-responsive" src="./img/hashicorp.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-xs-2 col-sm-2 col-md-2">
               <img class="img-responsive" src="./img/splunk.png" alt="">
             </div>
             </div>
 
-          <div class="text-loghi text-center">
-            <a href="#">View customer stories ></a>
+          <div class="col-xs-12 col-sm-12 text-loghi text-center">
+            <a class="color-azure" href="#">View customer stories ></a>
           </div>
         </div>
       </section>
@@ -152,7 +156,7 @@
       <section class="deploy background-white">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 text-deploy text-center">
+            <div class="col-xs-12 col-sm-12 text-deploy text-center">
               <h1 class="color-blue">Deploy and scale seamlessy</h1>
               <h3 class="color-grey">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</h3>
               <div class="list color-grey">
@@ -171,25 +175,25 @@
             <div class="col-xs-12 col-md-8 col-md-offset-4 color-grey ">
               <div class="row">
 
-                <div class="col-xs-12 col-lg-6">
+                <div class="col-xs-12 col-md-6 col-lg-6">
                   <img src="./img/cluster-deploy.svg" alt="">
                   <h3 class="color-blue">Cluster deployments</h3>
                   <p class="color-grey">Provision multiple Droplets (virtual machines) in seconds with with our control panel, CLI, or directly against our API.</p>
                 </div>
 
-                <div class="col-xs-12 col-lg-6">
+                <div class="col-xs-12 col-md-6 col-lg-6">
                   <img src="./img/optimized-compute.svg" alt="">
                   <h3 class="color-blue">Optimez compute types</h3>
                   <p class="color-grey">Get the compute resources you need with Standard or Optimized Droplets.</p>
                 </div>
 
-                <div class="col-xs-12 col-lg-6">
+                <div class="col-xs-12 col-md-6 col-lg-6">
                   <img src="./img/one-click.svg" alt="">
                   <h3 class="color-blue">One-click apps</h3>
                   <p class="color-grey">Skip the install and configuiration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
                 </div>
 
-                <div class="col-xs-12 col-lg-6">
+                <div class="col-xs-12 col-md-6 col-lg-6">
                   <img src="./img/global.svg" alt="">
                   <h3 class="color-blue">Global availability</h3>
                   <p class="color-grey">Deploy to any of our data center regions around the world.</p>
@@ -205,11 +209,12 @@
       <section class="developers background-grey">
         <div class="container">
           <div class="row">
-            <div class="text-developers col-lg-12 text-center">
+            <div class="text-developers col-xs-12 col-sm-12  col-md-12 text-center">
               <h1 class="color-blue">Designed for developers</h1>
               <h3 class="color-grey">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</h3>
 
-              <div class="developers-item">
+
+              <div class="developers-item col-xs-12 col-sm-12  col-md-12">
                 <div class="developers-layover">
                   <i class="color-blue fas fa-chevron-left"></i>
                 </div>
@@ -219,7 +224,7 @@
 
                 <img class="img-responsive" src="./img/create-droplet.jpg" alt="">
                 <p class="text-center color-blue">Create compute servers in 55 seconds or less</p>
-                <i class="fas fa-ellipsis-h"></i>
+                <i class="color-azure fas fa-ellipsis-h"></i>
               </div>
             </div>
           </div>
@@ -234,25 +239,25 @@
             <div class="text-features text-center">
               <h1 class="color-blue">The features your business needs</h1>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               <img class="img-responsive" src="./img/pred-pricing.svg" alt="">
               <h3 class="color-blue">Predictable pricing</h3>
               <p class="color-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a href="#">Pricing ></a>
+              <a class="color-azure" href="#">Pricing ></a>
             </div>
 
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               <img class="img-responsive" src="./img/world-class.svg" alt="">
               <h3 class="color-blue">World-class service</h3>
               <p class="color-grey">Free round-the-clock technical support for all customers. You'll feel the love.</p>
-              <a href="#">Support ></a>
+              <a class="color-azure" href="#">Support ></a>
             </div>
 
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               <img class="img-responsive" src="./img/reliable-platform.svg" alt="">
               <h3 class="color-blue">Reliable platform</h3>
               <p class="color-grey">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
-              <a href="#">Security ></a>
+              <a class="color-azure" href="#">Security ></a>
             </div>
           </div>
         </div>
@@ -374,18 +379,18 @@
                 <h4 class="text-center color-grey">"We have been able to make scaling the technical infrastructure of our business cost effective and efficient"</h4>
                 <h6 class="color-blue"><strong>Rick O'Toole</strong></h6>
                 <h6 class="color-blue">Co-founfer and CTO</h6>
-                <a href="#">Read story ></a>
+                <a class="color-azure" href="#">Read story ></a>
               </div>
             </div>
           </div>
           <div class="row">
-            <i class="fas fa-ellipsis-h col-lg-12 text-center"></i>
+            <i class="color-azure fas fa-ellipsis-h col-lg-12 text-center"></i>
           </div>
         </div>
       </section>
 
 
-      <!-- GET STARTDE NOW -->
+      <!-- GET STARTED NOW -->
       <section class="started">
         <div class="container">
           <div class="row">
@@ -433,7 +438,7 @@
 
           </div>
 
-          <div class="box col-md-2">
+          <div class="box col-sm-6 col-md-2">
             <h5 class="white-color">Company</h5>
             <ul class="color-grey ">
               <li>About</li>
@@ -448,7 +453,7 @@
             </ul>
           </div>
 
-          <div class="box col-md-2">
+          <div class="box col-sm-6 col-md-2">
             <h5 class="white-color">Products</h5>
             <ul class="color-grey ">
               <li>Products Overview</li>
@@ -467,7 +472,7 @@
             </ul>
           </div>
 
-          <div class="box col-md-2">
+          <div class="box col-sm-6 col-md-2">
             <h5 class="white-color">Community</h5>
             <ul class="color-grey ">
               <li>Tutorials</li>
@@ -480,6 +485,15 @@
               <li>Research Program</li>
               <li>Currents Research</li>
               <li>Open Source</li>
+            </ul>
+          </div>
+
+          <div class="box col-sm-6 col-md-2">
+            <h5 class="white-color">Support</h5>
+            <ul class="color-grey ">
+              <li>Contact support</li>
+              <li>FAQ</li>
+              <li>Network Status</li>
             </ul>
           </div>
         </div>

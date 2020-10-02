@@ -2,7 +2,9 @@
 body {
   font-family: 'Lato', sans-serif;
 }
-
+ body h1 {
+  font-weight: bold;
+ }
 /* UTILITIES COLORI*/
 .white-color {
   color: #ffffff;
@@ -13,6 +15,9 @@ body {
 .color-blue {
   color: #031b4e;
 }
+.color-azure {
+  color: #006aff;
+}
 .background-white {
   background: white;
 }
@@ -20,11 +25,17 @@ body {
   background: #f3f5f9;
 }
 
+
 /* BOTTONI */
 .btn {
   border: 1px solid #006aff;
   padding: 3px 5px;
   background: white;
+}
+.btn-google {
+  color: #5a7b94;
+  border: none;
+  box-shadow: 2px 5px #f3f5f9;
 }
 
 .btn-primary {
@@ -34,6 +45,10 @@ body {
 /* HEADER */
 .main-header {
   position: relative;
+}
+.main-header .navbar-brand,
+.main-header .navbar-nav li a {
+  color: #031b4e;
 }
 
 .main-header img {
@@ -58,10 +73,6 @@ body {
   transform: scale(0.9);
 }
 
-.btn a {
-  color: #0049ff;
-}
-
 /* JUMBOTRON */
 .jumbotron {
   position: relative;
@@ -75,7 +86,11 @@ body {
   padding: 15px 15px;
   border-radius: 5px;
 }
-
+.box-jumbotron .fa-google {
+  position: absolute;
+  left: 10%;
+  bottom: 16%
+}
 /* LOGHI */
 .loghi {
   margin-top: -30px;
@@ -89,7 +104,6 @@ body {
 .loghi img {
   transform: translatey(-50%);
   margin-top: 80px;
-  margin-bottom: -20px;
 }
 
 .loghi .text-loghi {
@@ -155,13 +169,13 @@ body {
 
 .developers-item .fa-chevron-left {
   position: absolute;
-  left: 17%;
+  left: 19%;
   transform: translateY(200px);
 }
 
 .developers-item .fa-chevron-right {
   position: absolute;
-  right: 14%;
+  right: 17%;
   transform: translateY(200px);
 }
 
@@ -208,6 +222,7 @@ body {
 }
 .service .blocco ul a {
   float: right;
+  color: #04d5d2;
   padding-right: 15px;
 }
 .service .blocco ul span {
