@@ -5,7 +5,7 @@ body {
 
 /* UTILITIES */
 .white-color {
-  background: #ffffff;
+  color: #ffffff;
 }
 
 .w-50 {
@@ -174,14 +174,14 @@ body {
 
 .developers-item .fa-chevron-left {
   position: absolute;
-  left: 18%;
+  left: 17%;
   transform: translateY(200px);
   color: #5b6987;
 }
 
 .developers-item .fa-chevron-right {
   position: absolute;
-  right: 18%;
+  right: 14%;
   transform: translateY(200px);
   color: #031b4e;
 }
@@ -192,4 +192,127 @@ body {
 
 .developers-item .fa-ellipsis-h {
   font-size: 25px;
+}
+
+/* FEATURES */
+.features {
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
+
+.features .text-features {
+  margin-bottom: 70px;
+}
+
+.features .text-features h3,
+.features .text-features h1 {
+  color: #031b4e;
+}
+
+
+
+
+
+
+
+
+/* SERVICE */
+.service {
+  margin-top: 200px;
+  padding: 50px 0;
+  background-image: linear-gradient(to top, #00249d 0%, #4068e5 100%);
+}
+.service h1 {
+  margin-bottom: 50px;
+}
+.service .blocco ul li {
+  list-style: none;
+  text-align: left;
+  margin-left: -40px;
+  font-size: 16px;
+  line-height: 30px;
+  border-bottom: 1px solid white;
+}
+
+.service .blocco li {
+  list-style: none;
+  font-size: 16px;
+  border-bottom: 1px solid white;
+}
+.service .blocco ul a {
+  float: right;
+  padding-right: 15px;
+}
+.service .blocco ul span {
+  float: left;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.service .blocco ul p {
+  text-align: left;
+  padding-top: 5px;
+}
+
+/* DEVELOPMENT */
+.development {
+  position: relative;
+  background: #f3f5f9;
+  margin: 50px 0;
+}
+
+.development .development-item {
+  transform: translateX(40%);
+  width: 650px;
+  background: white;
+}
+
+.development .text-development h1 {
+  padding-bottom: 40px;
+  color: #031b4e;
+}
+
+.development .text-development h4 {
+  padding: 20px 40px;
+  color: #5b6987;
+}
+
+.development .text-development img {
+  padding: 25px 0;
+  transform: translateX(55%);
+}
+
+.development-item {
+position: relative;
+}
+
+.development-layover {
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+}
+
+.development-item .fa-chevron-left {
+position: absolute;
+left: -9%;
+transform: translateY(100px);
+color: #5b6987;
+}
+
+.development-item .fa-chevron-right {
+position: absolute;
+right: -9%;
+transform: translateY(100px);
+color: #031b4e;
+}
+
+.development-layover i {
+font-size: 50px;
+}
+
+.development .fa-ellipsis-h {
+font-size: 25px;
+margin: 20px 0  35px 0;
 }
