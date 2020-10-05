@@ -298,8 +298,6 @@ font-size: 50px;
   font-size: 25px;
 }
 
-
-
 /* STARTED */
 .started {
   background-image: linear-gradient(to top, #00249d 0%, #4068e5 100%);
@@ -361,18 +359,19 @@ footer .icone a:first-child {
 }
 
 .help img {
-  width: 120px;
-  height: 100px;
+  width: 90px;
+  height: 70px;
   background: #0080ff;
   border-radius: 5%;
 }
 
 .number {
   position: absolute;
-  width: 50px;
+  width: 40px;
+  height: 40px;
   top: -20px;
   right: -20px;
-  padding: 10px;
+  padding-top: 3px;
   color: white;
   border-radius: 50%;
   background: red;
@@ -384,7 +383,7 @@ footer .icone a:first-child {
 .help-text {
   position: fixed;
   bottom: 0;
-  right: 17%;
+  right: 16%;
   font-size: 20px;
   background: white;
   padding: 5px 15px;
@@ -511,4 +510,17 @@ footer .icone a:first-child {
     top: -30%;
     font-size: 25px;
     transform: translateY(200px);
+}
+
+/* Help */
+@media screen and (max-width:991px) {
+  .help .image {
+    position: absolute;
+    left: -700px;
+    bottom: 100px;
+  }
+  .help-text {
+  transform: translateX(-65%);
+
+  }
 }
