@@ -146,18 +146,19 @@ body {
 
 .developers .text-developers h1,
 .developers .text-developers h3 {
-  line-height: 50px;
+  line-height: 30px;
   }
 
 
-.developers .text-developers img {
-  max-width: 650px;
-  margin: 50px 0 20px 0;
-  transform: translateX(40%);
+.developers img {
+  height: 400px;
+  width: 550px;
+  transform: translateX(55%);
 }
 
 .developers-item {
   position: relative;
+  cursor: pointer;
 }
 
 .developers-layover {
@@ -168,20 +169,20 @@ body {
   height: 100%;
 }
 
-.developers-item .fa-chevron-left {
+.developers-layover .fa-chevron-left {
   position: absolute;
   left: 19%;
   transform: translateY(200px);
-}
-
-.developers-item .fa-chevron-right {
-  position: absolute;
-  right: 17%;
-  transform: translateY(200px);
-}
-
-.developers-layover i {
   font-size: 50px;
+  color: #5a7b94;
+}
+
+.developers-layover .fa-chevron-right {
+  position: absolute;
+  right: 19%;
+  transform: translateY(200px);
+  font-size: 50px;
+  color: #031b4e;
 }
 
 .developers-item .fa-ellipsis-h {
@@ -261,6 +262,7 @@ body {
 
 .development-item {
 position: relative;
+margin-bottom: 50px;
 }
 
 .development-layover {
@@ -290,9 +292,13 @@ font-size: 50px;
 }
 
 .development .fa-ellipsis-h {
-font-size: 25px;
-margin: 20px 0  35px 0;
+  position: absolute;
+  bottom: -20%;
+  left: 48%;
+  font-size: 25px;
 }
+
+
 
 /* STARTED */
 .started {
@@ -369,7 +375,10 @@ footer .icone a:first-child {
 @media screen and (max-width:677px) {
   .loghi img {
     width: 50%;
-    height: 50%
+    height: 50%;
+  }
+  .loghi .splunk {
+    transform: translateY(-175px);
   }
 }
 
@@ -389,4 +398,66 @@ footer .icone a:first-child {
   .developers .text-developers h3 {
     font-size: 16px;
   }
+  .developers img {
+    height: 200px;
+    width: 350px;
+    max-width: 100%;
+    transform: translateX(45%);
+  }
+}
+
+/* Development */
+@media screen and (max-width:677px) {
+  .development .text-developers h1 {
+    font-size: 25px;
+  }
+  .development .development-item h4 {
+    font-size: 14px;
+  }
+   .development .development-item {
+    transform: translateX(0%);
+  }
+}
+
+
+/* MS*/
+/* Developers */
+@media screen and (max-width:991px) {
+  .developers .text-developers h1 {
+    font-size: 30px;
+  }
+  .developers .text-developers h3 {
+    font-size: 20px;
+  }
+  .developers img {
+    height: 250px;
+    width: 400px;
+    max-width: 100%;
+    transform: translateX(45%);
+  }
+  .developers-layover .fa-chevron-left,
+  .developers-layover .fa-chevron-right{
+    position: absolute;
+    top: -30%;
+    font-size: 25px;
+    transform: translateY(200px);
+}
+
+/* Development */
+@media screen and (max-width:991px) {
+  .development .development-item {
+    transform: translateX(50px);
+  }
+  .development .text-developers h1 {
+    font-size: 30px;
+  }
+  .development .development-item h4 {
+    font-size: 18px;
+  }
+  .development-layover .fa-chevron-left,
+  .development-layover .fa-chevron-right{
+    position: absolute;
+    top: -30%;
+    font-size: 25px;
+    transform: translateY(200px);
 }
