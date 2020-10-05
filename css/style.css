@@ -25,7 +25,24 @@ body {
   background: #f3f5f9;
 }
 
+.full-circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #006aff;
+}
 
+.empty-circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #006aff;
+}
+.circle ul {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 2px;
+}
 /* BOTTONI */
 .btn {
   border: 1px solid #006aff;
@@ -87,6 +104,7 @@ body {
   padding: 15px 15px;
   border-radius: 5px;
 }
+
 .box-jumbotron .fa-google {
   position: absolute;
   left: 10%;
@@ -146,9 +164,8 @@ body {
 
 .developers .text-developers h1,
 .developers .text-developers h3 {
-  line-height: 30px;
+  padding: 20px 0;
   }
-
 
 .developers img {
   height: 400px;
@@ -183,10 +200,6 @@ body {
   transform: translateY(200px);
   font-size: 50px;
   color: #031b4e;
-}
-
-.developers-item .fa-ellipsis-h {
-  font-size: 25px;
 }
 
 /* FEATURES */
@@ -239,6 +252,9 @@ body {
 }
 
 /* DEVELOPMENT */
+.development {
+  padding-bottom: 50px;
+}
 .development .development-item {
   transform: translateX(40%);
   width: 650px;
@@ -246,7 +262,7 @@ body {
 }
 
 .development .text-development h1 {
-  padding: 40px 0;
+  padding: 50px 0;
   color: #031b4e;
 }
 
@@ -291,13 +307,9 @@ color: #031b4e;
 font-size: 50px;
 }
 
-.development .fa-ellipsis-h {
-  position: absolute;
-  bottom: -20%;
-  left: 48%;
-  font-size: 25px;
+.development .development-item .circle {
+  transform: translateY(50px);
 }
-
 /* STARTED */
 .started {
   background-image: linear-gradient(to top, #00249d 0%, #4068e5 100%);
@@ -419,6 +431,11 @@ footer .icone a:first-child {
   .jumbotron .text-jumbotron p {
     font-size: 16px;
   }
+  .jumbotron form p {
+    transform: translateY(4px);
+    font-size: 16px;
+  }
+
 }
 
 /* Loghi */
@@ -465,7 +482,7 @@ footer .icone a:first-child {
     font-size: 14px;
   }
    .development .development-item {
-    transform: translateX(0%);
+    transform: translateX(-10%);
   }
 }
 
@@ -521,6 +538,5 @@ footer .icone a:first-child {
   }
   .help-text {
   transform: translateX(-65%);
-
   }
 }
