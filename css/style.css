@@ -349,6 +349,57 @@ footer .icone a:first-child {
   padding-left: 0;
 }
 
+/* HELP */
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+}
+
+.help .image {
+  position: relative;
+}
+
+.help img {
+  width: 120px;
+  height: 100px;
+  background: #0080ff;
+  border-radius: 5%;
+}
+
+.number {
+  position: absolute;
+  width: 50px;
+  top: -20px;
+  right: -20px;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+  background: red;
+  font-size: 16px;
+  font-weight: bold;
+  border: 5px solid white;
+}
+
+.help-text {
+  position: fixed;
+  bottom: 0;
+  right: 17%;
+  font-size: 20px;
+  background: white;
+  padding: 5px 15px;
+  border-radius: 5px;;
+}
+
+.quadrato {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: white;
+  right: -8px;
+  bottom: 10px;
+  transform: rotate(45deg);
+}
 
 
 
