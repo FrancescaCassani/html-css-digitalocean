@@ -32,17 +32,29 @@ body {
   background: #006aff;
 }
 
-.empty-circle {
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  border: 1px solid #006aff;
+.ex-10-icon {
+  width: 18px;
+  height: 18px;
+  color: #006aff;
 }
 .circle ul {
   list-style: none;
   display: inline-block;
   padding: 5px 2px;
 }
+
+.ex-10-icon {
+  animation: spin 3s linear infinite;
+ }
+ @keyframes spin {
+   from {
+     transform: rotate(0);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
 /* BOTTONI */
 .btn {
   border: 1px solid #006aff;
@@ -196,7 +208,7 @@ body {
 
 .developers-layover .fa-chevron-right {
   position: absolute;
-  right: 19%;
+  right: 20%;
   transform: translateY(200px);
   font-size: 50px;
   color: #031b4e;
